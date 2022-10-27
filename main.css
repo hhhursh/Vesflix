@@ -7,6 +7,7 @@ html{
 body{
     background: black;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .nav{
@@ -57,4 +58,48 @@ body{
 .right_nav i{
     color: azure;
     padding: .7rem;
+}
+
+.intro_page h1,h4{
+    color: white;
+}
+
+.current{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:600px;
+    height: 400px;
+}
+
+.right_current img{
+    width:40rem;
+    height: 20rem;
+    margin-left: 40rem;
+}
+
+.cover_nl{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    color: white;
+    font-weight: 900;
+  
+}
+
+
+.content{
+    display: flex;
+   width: 20rem;
+   height: 15rem;
+  padding-bottom: 2rem; ;   
+  align-items:flex-end;
+  justify-content:center;
+  background-color: grey;
+  border-radius: 2rem;
+  margin: 1.5rem
+ 
+ 
+
 }
