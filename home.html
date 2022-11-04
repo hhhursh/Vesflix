@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VESFLIX</title>
     <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
     <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
@@ -22,28 +23,34 @@
 
       <nav class="right">
         <ul class="right_nav">
-        <input type="text" class="search">
-        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-    </ul>
+
+            <form action="" class="navigate">
+        <input type="text" placeholder="Search" class="search">
+        <button type="submit" class="search_" style="background-color: black;">
+            <i class="fa-sharp fa-solid fa-magnifying-glass" onclick="functionName()"></i>
+        </button>  
+    </form>  
+        </ul>
       </nav>
     </navbar>
     
     <div class="intro_page">
 
-        <head class="current">
-           
+          <head class="current_">
+               <div class="current">
                 <div class="left_current"><h1>Currently happening</h1>
                 <h4>Cultural</h4>
             </div>
 
             <div class="right_current">
                 <div class="cuurent_content">
-                    Illusion
+                   <h2>ILLUSION</h2> 
                 </div>
-                <img src="./img/fest.jpg" alt="festival">
+                <!-- <img src="./img/fest.jpg" alt="festival"> -->
             </div>
-           
-        </head>
+        </div>
+            
+        </head> 
         <div class="cultural">
             <h1>Cultural</h1>
             <div class="cover_nl">
